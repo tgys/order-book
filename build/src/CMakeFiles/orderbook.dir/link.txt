@@ -1,0 +1,1 @@
+/nix/store/88ghxafjpqp5sqpd75r51qqg4q5d95ss-gcc-wrapper-10.3.0/bin/g++ -fsanitize=address -fsanitize=undefined  -O3 -DNDEBUG -rdynamic CMakeFiles/orderbook.dir/main.cc.o -o orderbook  -Wl,-rpath,/home/tei/projects/limit_order_book/build/src: libLOB.so -lpthread -lm 

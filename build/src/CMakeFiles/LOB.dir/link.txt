@@ -1,0 +1,1 @@
+/nix/store/88ghxafjpqp5sqpd75r51qqg4q5d95ss-gcc-wrapper-10.3.0/bin/g++ -fPIC -fsanitize=address -fsanitize=undefined  -O3 -DNDEBUG -shared -Wl,-soname,libLOB.so -o libLOB.so CMakeFiles/LOB.dir/order_book.cc.o 

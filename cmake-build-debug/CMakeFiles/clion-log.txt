@@ -1,0 +1,25 @@
+/run/current-system/sw/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/run/current-system/sw/bin/gcc -DCMAKE_CXX_COMPILER=/run/current-system/sw/bin/gcc -G "CodeBlocks - Unix Makefiles" /home/tei/projects/limit_order_book
+CMake Warning (dev) at /nix/store/f9ph445ajlxijbhvcd7vjxyr7i5ahpfd-cmake-3.19.7/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:426 (message):
+  The package name passed to `find_package_handle_standard_args` (MATH) does
+  not match the name of the calling package (Math).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindMath.cmake:14 (find_package_handle_standard_args)
+  CMakeLists.txt:19 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- 
+-- BUILD SUMMARY
+--   CMAKE_GENERATOR      : Unix Makefiles
+--   Compiler ID          : GNU
+--   Build type           : Debug
+--   Library name         : LOB
+--   Library type         : SHARED
+--   Build tests          : OFF
+--   Build benchmarks     : OFF
+--   Boost include dirs   : /nix/store/jhs93x916spxrn8i2q3d3vbkij4p7ll4-boost-1.69.0-dev/include
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tei/projects/limit_order_book/cmake-build-debug

@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/gcc -fsanitize=address -fsanitize=undefined  -g -rdynamic CMakeFiles/orderbook.dir/main.cc.o -o orderbook  -Wl,-rpath,/home/tei/projects/limit_order_book/cmake-build-debug/src: libLOB.so -lpthread -lm 

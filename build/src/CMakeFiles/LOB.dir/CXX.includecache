@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LOB/order_book.hh
+iostream
+-
+vector
+-
+memory
+-
+queue
+-
+map
+-
+chrono
+-
+
+/home/tei/projects/limit_order_book/src/order_book.cc
+unordered_map
+-
+chrono
+-
+LOB/order_book.hh
+/home/tei/projects/limit_order_book/src/LOB/order_book.hh
+
